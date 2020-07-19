@@ -1,0 +1,385 @@
+body {
+  margin: 0;
+  border: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*heading styles*/
+.heading-wrapper {
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-wrapper {
+  display: flex;
+  height: 100px;
+  line-height: 100px;
+}
+
+a.nav {
+  text-decoration: none;
+  color: #DE9502;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+div > .nav:hover {
+  background-color: white;
+  text-decoration: underline;
+}
+
+/*content styles for quiz page*/
+.test-page-wrapper{
+  height: 80vh;
+  padding: 40px;
+  text-align: center;
+  background-color: #A0D7E3;
+}
+
+.testbtn {
+  background-color: #F0A202;
+  border: none;
+  color:black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.testbtn:hover{
+  background-color: #DE9502;
+}
+
+.quiz-wrapper{
+  width: 80%;
+  padding: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color:white;
+  margin:auto;
+  min-height: 100px;
+  overflow: hidden;
+}
+
+#score {
+  margin: 5%;
+  font-size: 4em;
+  color: #F0A202;
+  text-align: center;
+  font-weight: bold;
+}
+
+#result-message-wrapper{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.info-wrapper{
+  align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.note_card_wrapper1 {
+  margin-left: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 5%;
+  width: 40%;
+}
+
+.note_card_wrapper2 {
+  margin-left: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 5%;
+  width: 30%;
+}
+
+.note_card_wrapper {
+  margin-left: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 5%;
+}
+
+.quiz-title{
+  color: #F0A202;
+}
+
+a.link_pg {
+  text-decoration: none;
+  color: #F0A202;
+  font-family: 'Roboto', sans-serif;
+}
+a.link_pg:hover {
+  color: #DE9502;
+  text-decoration: underline;
+}
+
+/*content styles for home page*/
+.index_content_wrapper{
+  padding: 60px;
+}
+
+.emphasize1{
+  color: #F0A202;
+  font-size: 4em;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "\2022";
+  color: #F0A202;
+  font-weight: bold;
+  display: inline-block;
+  width: 2em; 
+  margin-left: -1em;
+}
+
+.firstcard{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 40%;
+  padding-bottom: 2%;
+}
+
+.secondcard{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 50%;
+  padding-bottom: 2%;
+  margin:auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.thirdcard{
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 90%;
+  margin:auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.bottomside{
+  margin:5%
+}
+
+.line1{
+  display:flex;
+  justify-content: space-between;
+}
+
+#alert{
+  margin-top: 40px;
+  padding: 40px;
+  width: 50%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  text-align: center;
+  z-index: 2;
+  position: absolute;
+  left: 25%;
+  opacity: 0.9;
+}
+
+/*content styles for stories page*/
+
+.header-image-wrapper{
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.header-image{
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.header-story{
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 40%;
+  margin: 20px;
+}
+.subtitle{
+  text-align:center;
+  font-size:25px;
+  font-weight:bold;
+  color: black;
+  background-color:#A0D7E3;
+  padding:2px;
+}
+.description{
+  letter-spacing:1px;
+  line-height:1.8;
+  text-align:justify;
+  padding-left:4%;
+  padding-right:4%;
+}
+.text-block{
+  display:inline-block;
+  float: left;
+  transform: rotate(-90deg);
+  transform-origin:100% 100%;
+  -ms-transform: rotate(-90deg);
+  -ms-transform-origin:100% 100%;
+  -webkit-transform:rotate(-90deg);
+  -webkit-transform-origin: 100% 100%;
+  color:#DE9502;
+  font-size:30px;
+  font-weight:bold;
+  margin-left:-75px;
+}
+.intro-stories{
+  background-color: #DE9502;
+  color:white;
+  font-size:29px;
+  font-weight:800;
+  text-align:center;
+  padding:1%;
+}
+
+/*Help Page*/
+  /* Two columns side by side */
+  .column1 {
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    margin: inherit;
+  }
+  
+  .columnAll {
+    float: left;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column1 {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    padding-bottom: 10px;
+  }
+
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 16px;
+    margin: inherit;
+  }
+
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .title {
+    color: grey;
+  }
+
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    background-color:#DE9502;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size:20px;
+  }
+
+  .button:hover {
+    background-color:rgb(204, 142, 18);
+  }
+
+  .center {
+    text-align: center;
+    margin: auto;
+  }
+
+  .cat {
+    color: #DE9502;
+  }
+/* ends here*/
+
+/*Stories page*/
+.stories-heading {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(53, 51, 51);
+  padding-left:20px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+footer{
+  font-size:20px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#DE9502;
+  color: white;
+  text-align: center;
+  padding:20px;
+}
+
+/*home page*/
+.paragraph one{
+  font-size:25px;
+  padding: 3px
+  vertical-align:middle;
+}
+
+.therapy-title {
+  color:black;
+  font-size:35px;
+  font-weight:800;
+  text-align:center;
+}
